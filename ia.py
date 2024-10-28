@@ -34,7 +34,7 @@ def Gemini():
     # Import the Python SDK
     import google.generativeai as genai
     # Used to securely store your API key
-    GOOGLE_API_KEY = 'AIzaSyC5ubXAp6pbZkOfeSwT2Qx7N4lSyi_Dw6Y'
+    GOOGLE_API_KEY = 'chave não pode ser exposta'
     genai.configure(api_key=GOOGLE_API_KEY)
     model = genai.GenerativeModel('gemini-pro')
 
